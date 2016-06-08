@@ -1,0 +1,58 @@
+<div>
+    <div class="main-background">
+        <div class="main-content" ng-controller="sellerListCtrl">
+            <div class = "main-content-top">
+                <div class="city-logo"></div>
+                <span class="main-content-top-city">西北工业大学（长安校区)<a href="#"><span>切换地址</span></a></span>
+            </div>
+            <div class = "main-content-img">
+            </div>
+            <div class="main-content-filter">
+                <div>
+
+                    <select name="排序" ng-model="order">
+                        <option value="">默认</option>
+                        <option value="duration">送餐速度</option>
+                        <option value="score">评价排序</option>
+                    </select>
+                </div>
+                <div>
+                    <select name="口味" ng-model = "type" >
+                        <option value="">全部</option>
+                        <option value="中餐">中餐</option>
+                        <option value="西餐">西餐</option>
+                    </select>
+                </div>
+                <div>
+                    <!--<select name ="在线支付" ng-model = "payOnline" >-->
+                        <!--<option value="true">可以在线支付</option>-->
+                        <!--<option value="">全部</option>-->
+                    <!--</select>-->
+                    <!--<div ng-click = 'isPayOnline()'><div class="checkbox-img"></div>在线支付</div>-->
+                    <input type="checkbox" id="x" ng-model="payOnline" ng-true-value="true" ng-false-value = ""><label for="x">在线支付</label>
+                </div>
+                <form role="search">
+                <input type="text"  placeholder="搜索" ng-model="search">
+                </form>
+            </div>
+            <div class="main-content-list">
+                    <div ng-repeat="seller in sellers | filter : search | orderBy : order | filter : type | filter : {payOnline :payOnline} ">
+
+                        <div class="seller" ui-sref = "sellerDetail({id: seller.id})">
+                            <img src={{seller.src}} class="seller-logo">
+                                <ul>
+                                    <!--<li>{{seller.discount}}</li>-->
+
+                                    <li><h4 class = 'seller-name'>{{seller.name}}</h4> <div class="seller-payOnline" ng-show="seller.payOnline">付</div></li>
+                                    <li><i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i></li>
+                                    <!--<li><div class="star">{{seller.score}}</div></li>-->
+                                    <li><span>{{seller.minCost}}元起送</span><span>{{seller.duration}}分钟送达</span></li>
+                                    <li>{{seller.type}}</li>
+                                </ul>
+                        </div>
+                    </div>
+
+        </div>
+    </div>
+</div>
+</div>

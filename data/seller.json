@@ -1,0 +1,293 @@
+[
+  {
+    "id" : 1,
+    "name" : "飞饭送水",
+    "payOnline" :false,
+    "type" : "",
+    "score" : 4,
+    "minCost":10,
+    "duration" : 50,
+    "startTime" : "7:30",
+    "src" : "app/imgs/3.png",
+    "saleVolume" : 0
+
+  },
+  {
+    "id" : 2,
+    "name" : "小百福烧鸭饭",
+
+    "payOnline":true,
+    "type" : "中餐",
+    "score" : 5,
+    "minCost":15,
+    "duration" : 20,
+    "startTime" : "7:30",
+    "src" : "app/imgs/4.png",
+    "saleVolume" : 0
+
+  },
+  {
+    "id" : 3,
+    "name" : "飞饭体验店",
+    "payOnline":true,
+    "discount": true,
+    "type" : "西餐",
+    "score" : 5,
+    "minCost":30,
+    "duration" : 50,
+    "startTime" : "7:30",
+    "src" : "app/imgs/4.png",
+    "saleVolume" : 0
+
+  },
+  {
+    "id" : 4,
+    "name" : "小苏川菜",
+    "payOnline":false,
+    "discount": true,
+    "type" : "中餐",
+    "score" : 2,
+    "minCost":10,
+    "duration" : 50,
+    "startTime" : "7:30",
+    "src" : "app/imgs/1.png",
+    "saleVolume" : 0
+   
+
+  },
+  {
+    "id" : 5,
+    "name" : "1942香辣炸鸡饭",
+    "payOnline":true,
+    "discount": true,
+    "type" : "西餐",
+    "score" : 4,
+    "minCost":10,
+    "duration" : 10,
+    "startTime" : "7:30",
+    "src" : "app/imgs/4.png",
+    "saleVolume" : 0
+   
+
+  },
+  {
+    "id" : 6,
+    "name" : "荣炙黄焖鸡米饭",
+    "payOnline":false,
+    "discount": true,
+    "type" : "中餐",
+    "score" : 5,
+    "minCost":23,
+    "duration" : 10,
+    "startTime" : "7:30",
+    "src" : "app/imgs/4.png",
+    "saleVolume" : 0
+   
+
+  },
+  {
+    "id" : 7,
+    "name" : "迈德思客",
+
+    "payOnline":true,
+    "type" : "西餐 ",
+    "score" : 4,
+    "minCost":10,
+    "duration" : 50,
+    "startTime" : "7:30",
+    "src" : "app/imgs/2.png",
+    "saleVolume" : 0
+   
+
+  },
+  {
+    "id" : 8,
+    "name" : "润佳烤肉拌饭",
+
+    "payOnline":true,
+    "type" : "中餐",
+    "score" : 3,
+    "minCost":10,
+    "duration" : 50,
+    "startTime" : "7:30",
+    "src" : "app/imgs/4.png",
+    "saleVolume" : 0
+   
+  },
+  {
+    "id" : 9,
+    "name" : "川椒百味盖浇饭",
+
+    "payOnline":true,
+    "type" : "中餐",
+    "score" : 5,
+    "minCost":10,
+    "duration" : 50,
+    "startTime" : "7:30",
+    "src" : "app/imgs/1.png",
+    "saleVolume" : 0
+   
+
+  },
+  {
+    "id" : 10,
+    "name" : "飞饭送水",
+
+    "payOnline":false,
+    "type" : "中餐",
+    "score" : 4,
+    "minCost":10,
+    "duration" : 50,
+    "startTime" : "7:30",
+    "src" : "app/imgs/3.png",
+    "saleVolume" : 0
+   
+
+  },
+  {
+    "id" : 11,
+    "name" : "小百福烧鸭饭",
+
+    "payOnline":true,
+    "type" : "中餐",
+    "score" : 5,
+    "minCost":15,
+    "duration" : 20,
+    "startTime" : "7:30",
+    "src" : "app/imgs/4.png",
+    "saleVolume" : 0
+   
+
+  },
+  {
+    "id" : 12,
+    "name" : "飞饭体验店",
+
+    "payOnline":true,
+    "type" : "西餐",
+    "score" : 5,
+    "minCost":30,
+    "duration" : 50,
+    "startTime" : "7:30",
+    "src" : "app/imgs/4.png",
+    "saleVolume" : 0
+   
+
+  },
+  {
+    "id" : 13,
+    "name" : "小苏川菜",
+
+    "payOnline":false,
+    "type" : "中餐",
+    "score" : 2,
+    "minCost":10,
+    "duration" : 50,
+    "startTime" : "7:30",
+    "src" : "app/imgs/1.png",
+    "saleVolume" : 0
+   
+
+  },
+  {
+    "id" : 14,
+    "name" : "1942香辣炸鸡饭",
+
+    "payOnline":true,
+    "type" : "西餐",
+    "score" : 4,
+    "minCost":10,
+    "duration" : 10,
+    "startTime" : "7:30",
+    "src" : "app/imgs/4.png",
+    "saleVolume" : 0
+  },
+  {
+    "id" : 15,
+    "name" : "荣炙黄焖鸡米饭",
+
+    "payOnline":false,
+    "type" : "中餐",
+    "score" : 5,
+    "minCost":23,
+    "duration" : 10,
+    "startTime" : "7:30",
+    "src" : "app/imgs/4.png",
+    "saleVolume" : 0
+   
+
+  },
+  {
+    "id" :16,
+    "name" : "迈德思客",
+
+    "payOnline":true,
+    "type" : "西餐 ",
+    "score" : 4,
+    "minCost":10,
+    "duration" : 50,
+    "startTime" : "7:30",
+    "src" : "app/imgs/2.png",
+    "saleVolume" : 0
+   
+
+  },
+  {
+    "id" : 17,
+    "name" : "润佳烤肉拌饭",
+
+    "payOnline":true,
+    "type" : "中餐",
+    "score" : 3,
+    "minCost":10,
+    "duration" : 50,
+    "startTime" : "7:30",
+    "src" : "app/imgs/4.png",
+    "saleVolume" : 0
+   
+  },
+  {
+    "id" : 18,
+    "name" : "川椒百味盖浇饭",
+
+    "payOnline":true,
+    "type" : "中餐",
+    "score" : 5,
+    "minCost":10,
+    "duration" : 50,
+    "startTime" : "7:30",
+    "src" : "app/imgs/1.png",
+    "saleVolume" : 0
+   
+
+  },
+  {
+    "id" : 19,
+    "name" : "飞饭送水",
+
+    "payOnline":false,
+    "type" : "",
+    "score" : 4,
+    "minCost":10,
+    "duration" : 50,
+    "startTime" : "7:30",
+    "src" : "app/imgs/3.png",
+    "saleVolume" : 0
+   
+
+  },
+  {
+    "id" : 20,
+    "name" : "小百福烧鸭饭",
+
+    "payOnline":true,
+    "type" : "中餐",
+    "score" : 5,
+    "minCost":15,
+    "duration" : 20,
+    "startTime" : "7:30",
+    "src" : "app/imgs/4.png",
+    "saleVolume" : 0
+
+  }
+]

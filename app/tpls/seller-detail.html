@@ -1,0 +1,13 @@
+<div ui-view="topbar"></div>
+<div class="seller-detail-top">
+    <ul>
+        <li>{{$stateParams.id}}</li>
+        <li ui-sref="menu"><a href="#">菜单</a></li>
+        <li ui-sref="score"><a href="#">评价</a></li>
+        <li ui-sref="message"><a href="#">留言</a></li>
+    </ul>
+</div>
+<div ui-view = "menu"></div>
+<div ui-view = "score"></div>
+<div ui-view = "message"></div>
+<div ui-view="bottombar"></div>

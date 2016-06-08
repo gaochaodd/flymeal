@@ -1,0 +1,25 @@
+<div ui-view="topbar"></div>
+<div class = 'order-form'>
+    <table>
+        <thead>
+        <td>订单号</td>
+        <td>订单状态</td>
+        <td>取消</td>
+        </thead>
+        <tr>
+            <td>12345678</td>
+            <td>送货中</td>
+            <td><input type="button" value="取消订单"></td>
+        </tr>
+        <tr>
+            <td>99999999</td>
+            <td>订单递交中</td>
+            <td><input type="button" value="取消订单"></td>
+        </tr>
+
+
+
+    </table>
+    <div class="back"><a href="#" ui-sref="index"></a></div>
+</div>
+<div ui-view="bottombar"></div>
